@@ -45,7 +45,7 @@ function toggleCowImage() {
         console.error('Cow image not found');
     }
 }
-localStorage.setItem('didClick','false');
+//localStorage.setItem('didClick','false');
 function addCow() {
     if (localStorage.getItem('didClick') == 'true'){
     
