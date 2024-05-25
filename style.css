@@ -1,0 +1,133 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #b4d8a9;
+}
+.wordlol{
+    color: #b4d8a9;
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color:#43603a;
+}
+h2 {
+    text-align: center;
+    color: #8bb27f;
+}
+
+.main {
+    color:#8bb27f;
+}
+
+#main{
+    transition: margin-left .5s;
+    padding: 16px;
+}
+#n{
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+.sidebar{
+    width: 0;
+    margin:0;
+    z-index: 1;
+    top:0;
+    left:0;
+    transition: 0.5s;
+    padding-top: 60px;
+    position: fixed;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #8bb27f;
+}
+
+.sidebar a{
+    padding: 8x 8x 9x 32px;
+    transition: 0.3s;
+    font-size: 25px;
+    color:rgb(85, 126, 72);
+    display: block;
+    padding: 16x;
+    text-decoration: none;
+}
+
+.sidebar a:hover{
+    background-color: #6a8a61;
+
+}
+
+.sidebar .closbtn {
+    position: absolute;
+    top:0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    
+}
+
+.opnbtn{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #6a8a61;
+    color:#b7ceb0;
+    padding: 10px 15px;
+    border: none;
+}
+
+.opnbtn:hover {
+    background-color: #334a2c;
+
+}
+.sidebar a.active{
+    background-color: #43603a;
+    color: #b7ceb0;
+}
+
+#ground{
+    position: fixed;
+    bottom:0;
+    height: 20%;
+    width: 100%;
+    background-image: url("imags/gorn.png");
+    background-repeat: repeat-x;
+    left: 0px;
+}
+
+#container_of_trees{
+    position: fixed;
+    bottom:0;
+    height: 27%;
+    width: 100%;
+    background-image: url("imags/help.png");
+    background-repeat: repeat-x;
+    left: 0px;
+}
+
+#cow {
+    display: block;
+    position: absolute;
+    right: 0; /* Ensure the cow is positioned on the right */
+    opacity: 0; /* Start hidden */
+    transition: opacity 0.5s ease-in-out; /* Add animation */
+}
+/* Add this to your style.css file or inside a <style> tag in the HTML head */
+#cow {
+    transition: top 0.5s, opacity 0.5s;
+}
+
+#cow {
+    transition: top 0.5s, opacity 0.5s;
+}
+
+.dynamicImage {
+    margin-top: 10px;
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+}
+
+
+
